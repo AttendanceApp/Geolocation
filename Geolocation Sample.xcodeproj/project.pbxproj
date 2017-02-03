@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47FFC6541E44EC4D00754C5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FFC6531E44EC4D00754C5F /* AppDelegate.swift */; };
+		47FFC6561E44EC4D00754C5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FFC6551E44EC4D00754C5F /* ViewController.swift */; };
+		47FFC6591E44EC4D00754C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FFC6571E44EC4D00754C5F /* Main.storyboard */; };
+		47FFC65B1E44EC4D00754C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FFC65A1E44EC4D00754C5F /* Assets.xcassets */; };
+		47FFC65E1E44EC4D00754C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FFC65C1E44EC4D00754C5F /* LaunchScreen.storyboard */; };
+		47FFC6691E44EC4D00754C5F /* Geolocation_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FFC6681E44EC4D00754C5F /* Geolocation_SampleTests.swift */; };
+		47FFC6741E44EC4D00754C5F /* Geolocation_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FFC6731E44EC4D00754C5F /* Geolocation_SampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47FFC6651E44EC4D00754C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FFC6481E44EC4D00754C5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47FFC64F1E44EC4D00754C5F;
+			remoteInfo = "Geolocation Sample";
+		};
+		47FFC6701E44EC4D00754C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FFC6481E44EC4D00754C5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47FFC64F1E44EC4D00754C5F;
+			remoteInfo = "Geolocation Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47FFC6501E44EC4D00754C5F /* Geolocation Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geolocation Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FFC6531E44EC4D00754C5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47FFC6551E44EC4D00754C5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47FFC6581E44EC4D00754C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47FFC65A1E44EC4D00754C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47FFC65D1E44EC4D00754C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47FFC65F1E44EC4D00754C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FFC6641E44EC4D00754C5F /* Geolocation SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geolocation SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FFC6681E44EC4D00754C5F /* Geolocation_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geolocation_SampleTests.swift; sourceTree = "<group>"; };
+		47FFC66A1E44EC4D00754C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FFC66F1E44EC4D00754C5F /* Geolocation SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geolocation SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FFC6731E44EC4D00754C5F /* Geolocation_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geolocation_SampleUITests.swift; sourceTree = "<group>"; };
+		47FFC6751E44EC4D00754C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47FFC64D1E44EC4D00754C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFC6611E44EC4D00754C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFC66C1E44EC4D00754C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47FFC6471E44EC4D00754C5F = {
+			isa = PBXGroup;
+			children = (
+				47FFC6521E44EC4D00754C5F /* Geolocation Sample */,
+				47FFC6671E44EC4D00754C5F /* Geolocation SampleTests */,
+				47FFC6721E44EC4D00754C5F /* Geolocation SampleUITests */,
+				47FFC6511E44EC4D00754C5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47FFC6511E44EC4D00754C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47FFC6501E44EC4D00754C5F /* Geolocation Sample.app */,
+				47FFC6641E44EC4D00754C5F /* Geolocation SampleTests.xctest */,
+				47FFC66F1E44EC4D00754C5F /* Geolocation SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47FFC6521E44EC4D00754C5F /* Geolocation Sample */ = {
+			isa = PBXGroup;
+			children = (
+				47FFC6531E44EC4D00754C5F /* AppDelegate.swift */,
+				47FFC6551E44EC4D00754C5F /* ViewController.swift */,
+				47FFC6571E44EC4D00754C5F /* Main.storyboard */,
+				47FFC65A1E44EC4D00754C5F /* Assets.xcassets */,
+				47FFC65C1E44EC4D00754C5F /* LaunchScreen.storyboard */,
+				47FFC65F1E44EC4D00754C5F /* Info.plist */,
+			);
+			path = "Geolocation Sample";
+			sourceTree = "<group>";
+		};
+		47FFC6671E44EC4D00754C5F /* Geolocation SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				47FFC6681E44EC4D00754C5F /* Geolocation_SampleTests.swift */,
+				47FFC66A1E44EC4D00754C5F /* Info.plist */,
+			);
+			path = "Geolocation SampleTests";
+			sourceTree = "<group>";
+		};
+		47FFC6721E44EC4D00754C5F /* Geolocation SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47FFC6731E44EC4D00754C5F /* Geolocation_SampleUITests.swift */,
+				47FFC6751E44EC4D00754C5F /* Info.plist */,
+			);
+			path = "Geolocation SampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47FFC64F1E44EC4D00754C5F /* Geolocation Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FFC6781E44EC4D00754C5F /* Build configuration list for PBXNativeTarget "Geolocation Sample" */;
+			buildPhases = (
+				47FFC64C1E44EC4D00754C5F /* Sources */,
+				47FFC64D1E44EC4D00754C5F /* Frameworks */,
+				47FFC64E1E44EC4D00754C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geolocation Sample";
+			productName = "Geolocation Sample";
+			productReference = 47FFC6501E44EC4D00754C5F /* Geolocation Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47FFC6631E44EC4D00754C5F /* Geolocation SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FFC67B1E44EC4D00754C5F /* Build configuration list for PBXNativeTarget "Geolocation SampleTests" */;
+			buildPhases = (
+				47FFC6601E44EC4D00754C5F /* Sources */,
+				47FFC6611E44EC4D00754C5F /* Frameworks */,
+				47FFC6621E44EC4D00754C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47FFC6661E44EC4D00754C5F /* PBXTargetDependency */,
+			);
+			name = "Geolocation SampleTests";
+			productName = "Geolocation SampleTests";
+			productReference = 47FFC6641E44EC4D00754C5F /* Geolocation SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47FFC66E1E44EC4D00754C5F /* Geolocation SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FFC67E1E44EC4D00754C5F /* Build configuration list for PBXNativeTarget "Geolocation SampleUITests" */;
+			buildPhases = (
+				47FFC66B1E44EC4D00754C5F /* Sources */,
+				47FFC66C1E44EC4D00754C5F /* Frameworks */,
+				47FFC66D1E44EC4D00754C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47FFC6711E44EC4D00754C5F /* PBXTargetDependency */,
+			);
+			name = "Geolocation SampleUITests";
+			productName = "Geolocation SampleUITests";
+			productReference = 47FFC66F1E44EC4D00754C5F /* Geolocation SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47FFC6481E44EC4D00754C5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Attendance App";
+				TargetAttributes = {
+					47FFC64F1E44EC4D00754C5F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					47FFC6631E44EC4D00754C5F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47FFC64F1E44EC4D00754C5F;
+					};
+					47FFC66E1E44EC4D00754C5F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47FFC64F1E44EC4D00754C5F;
+					};
+				};
+			};
+			buildConfigurationList = 47FFC64B1E44EC4D00754C5F /* Build configuration list for PBXProject "Geolocation Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47FFC6471E44EC4D00754C5F;
+			productRefGroup = 47FFC6511E44EC4D00754C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47FFC64F1E44EC4D00754C5F /* Geolocation Sample */,
+				47FFC6631E44EC4D00754C5F /* Geolocation SampleTests */,
+				47FFC66E1E44EC4D00754C5F /* Geolocation SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47FFC64E1E44EC4D00754C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FFC65E1E44EC4D00754C5F /* LaunchScreen.storyboard in Resources */,
+				47FFC65B1E44EC4D00754C5F /* Assets.xcassets in Resources */,
+				47FFC6591E44EC4D00754C5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFC6621E44EC4D00754C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFC66D1E44EC4D00754C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47FFC64C1E44EC4D00754C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FFC6561E44EC4D00754C5F /* ViewController.swift in Sources */,
+				47FFC6541E44EC4D00754C5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFC6601E44EC4D00754C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FFC6691E44EC4D00754C5F /* Geolocation_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFC66B1E44EC4D00754C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FFC6741E44EC4D00754C5F /* Geolocation_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47FFC6661E44EC4D00754C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47FFC64F1E44EC4D00754C5F /* Geolocation Sample */;
+			targetProxy = 47FFC6651E44EC4D00754C5F /* PBXContainerItemProxy */;
+		};
+		47FFC6711E44EC4D00754C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47FFC64F1E44EC4D00754C5F /* Geolocation Sample */;
+			targetProxy = 47FFC6701E44EC4D00754C5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47FFC6571E44EC4D00754C5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FFC6581E44EC4D00754C5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47FFC65C1E44EC4D00754C5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FFC65D1E44EC4D00754C5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47FFC6761E44EC4D00754C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47FFC6771E44EC4D00754C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47FFC6791E44EC4D00754C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Geolocation Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Geolocation-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		47FFC67A1E44EC4D00754C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Geolocation Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Geolocation-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		47FFC67C1E44EC4D00754C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Geolocation SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Geolocation-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geolocation Sample.app/Geolocation Sample";
+			};
+			name = Debug;
+		};
+		47FFC67D1E44EC4D00754C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Geolocation SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Geolocation-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geolocation Sample.app/Geolocation Sample";
+			};
+			name = Release;
+		};
+		47FFC67F1E44EC4D00754C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Geolocation SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Geolocation-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Geolocation Sample";
+			};
+			name = Debug;
+		};
+		47FFC6801E44EC4D00754C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Geolocation SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Geolocation-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Geolocation Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47FFC64B1E44EC4D00754C5F /* Build configuration list for PBXProject "Geolocation Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FFC6761E44EC4D00754C5F /* Debug */,
+				47FFC6771E44EC4D00754C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FFC6781E44EC4D00754C5F /* Build configuration list for PBXNativeTarget "Geolocation Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FFC6791E44EC4D00754C5F /* Debug */,
+				47FFC67A1E44EC4D00754C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47FFC67B1E44EC4D00754C5F /* Build configuration list for PBXNativeTarget "Geolocation SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FFC67C1E44EC4D00754C5F /* Debug */,
+				47FFC67D1E44EC4D00754C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47FFC67E1E44EC4D00754C5F /* Build configuration list for PBXNativeTarget "Geolocation SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FFC67F1E44EC4D00754C5F /* Debug */,
+				47FFC6801E44EC4D00754C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47FFC6481E44EC4D00754C5F /* Project object */;
+}
