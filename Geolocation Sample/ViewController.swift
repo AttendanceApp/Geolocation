@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         static let longitude = -122.152208
     }
     
-    let geofence: Geofence = Geofence(latitudeDeadband: 0.5, longitudeDeadband: 0.5, targetLatitude: MapConstants.latitude, targetLongitude: MapConstants.longitude)
+    let geofence: Geofence = Geofence(latitudeDeadband: 0.005, longitudeDeadband: 0.005, targetLatitude: MapConstants.latitude, targetLongitude: MapConstants.longitude)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +32,6 @@ class ViewController: UIViewController {
         } else {
             label.text = "You are not on the Casti campus."
         }
-        print(geofence.inCasti)
     }
 
     override func didReceiveMemoryWarning() {

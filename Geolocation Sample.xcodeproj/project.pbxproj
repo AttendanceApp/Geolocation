@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					47FFC64F1E44EC4D00754C5F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UDD5K7FX5V;
 						ProvisioningStyle = Automatic;
 					};
 					47FFC6631E44EC4D00754C5F = {
@@ -416,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UDD5K7FX5V;
 				INFOPLIST_FILE = "Geolocation Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Geolocation-Sample";
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UDD5K7FX5V;
 				INFOPLIST_FILE = "Geolocation Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "attendance.Geolocation-Sample";
